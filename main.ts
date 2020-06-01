@@ -1,4 +1,4 @@
-//% color="#9C27B0" weight=100 icon="\uf1ec"
+//% color="#9C27B0" weight=100 icon="\uf19c"
 
 	
 namespace progressAnimation{
