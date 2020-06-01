@@ -1,3 +1,6 @@
+//% color="#9C27B0" weight=100 icon="\f110"
+
+	
 namespace progressAnimation{
     //% blockId=progressAnimationLoading
     //% block="progressAni LedSayisi = $ledsayisi, LedSirasi =  $sira, durum = $durum"
@@ -5,7 +8,7 @@ namespace progressAnimation{
     //% durum.defl=true
     //% ledsayisi.min=1 ledsayisi.max=5
     //% sira.min=0 sira.max=4
-   //% color="#FF5733" weight=10 icon="\uf0a4"
+   //% color="#FF5733" weight=10 
     
  
     export function progressAni(ledsayisi: number, sira: number, durum: boolean): void {
