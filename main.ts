@@ -1,6 +1,3 @@
- 
-   //% weight=1000 icon="\f2a9"
-
 namespace progressAnimation{
     //% blockId=progressAnimationLoading
     //% block="progressAni LedSayisi = $ledsayisi, LedSirasi =  $sira, durum = $durum"
@@ -9,12 +6,8 @@ namespace progressAnimation{
     //% ledsayisi.min=1 ledsayisi.max=5
     //% sira.min=0 sira.max=4
    //% color="#FF5733" weight=10 icon="\uf0a4"
-    //% 
- 
     
-
-
-
+ 
     export function progressAni(ledsayisi: number, sira: number, durum: boolean): void {
        
         const leds=ledsayisi;
@@ -34,7 +27,7 @@ namespace progressAnimation{
                     led.setBrightness(55)
                 }
             }
-            for (let index = 0; index < 4; index++) {
+            for (let index2 = 0; index2 < 4; index2++) {
                 led.enable(false)
                 basic.pause(100)
                 led.enable(true)
@@ -46,16 +39,4 @@ namespace progressAnimation{
         basic.pause(500)
         basic.clearScreen()
     }
-
-
-
-
 }
-
-
-
-
-
-
-
-
