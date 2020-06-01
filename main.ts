@@ -4,7 +4,7 @@
 namespace progressAnimation{
     //% blockId=progressAnimationLoading
     //% block="progressAni LedSayisi = $ledsayisi, LedSirasi =  $sira, durum = $durum"
-    //% ledsayisi.defl=3,  sira.defl=1
+    //% ledsayisi.defl=3  sira.defl=1
     //% durum.defl=true
     //% ledsayisi.min=1 ledsayisi.max=5
     //% sira.min=0 sira.max=4
